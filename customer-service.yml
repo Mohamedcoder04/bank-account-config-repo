@@ -3,8 +3,5 @@ customer:
     x: 44
     y: 11
 spring:
-  h2:
-    console:
-      enabled: true
   datasource:
     url: jdbc:h2:mem:customer-db

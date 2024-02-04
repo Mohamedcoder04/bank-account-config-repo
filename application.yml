@@ -1,7 +1,7 @@
 global:
   params:
-    p1: 1122
-    p2: 3344
+    p1: 5544
+    p2: 7766
 spring:
   h2:
     console:

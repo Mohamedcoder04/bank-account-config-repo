@@ -16,7 +16,7 @@ eureka:
     prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: ${DISCOVERY_SERVICE_URL:http://localhost:8761/eureka # ç-v-d : si cette variables d'environnement existe DISCOVERY_SERVICE_URL il va prendre la valeur qui se trouve dans la variable, s'il n'existe pas il va utiliser http://local.....
 management:
   endpoints:
     web:
